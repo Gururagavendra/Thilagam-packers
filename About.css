@@ -1,0 +1,27 @@
+body{
+  font-family: 'poppins','sans-serif';
+}
+
+/* Mobile view */
+@media(max-width:1080px){
+.abt-us-sec-sec{
+  margin: 0 40px;
+  padding: 30px 0;
+}
+.abt-us-text{
+  padding: 30px 0 0 0;
+  text-align: justify;
+}
+
+}
+@media(min-width:1080px){
+  .abt-us-sec-sec{
+    margin: 0 350px;
+    padding: 100px 0;
+  } 
+  .abt-us-text{
+    padding: 80px 0 0 0;
+    font-size: 20px;
+    text-align: justify;
+  }
+}
